@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0c6896;
+}
+
+header { 
+    height: 75px;
+    border: 1px solid #052738;
+    background-color: #052748;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+}
+
+.menu-logo{
+    width: 1070px;
+    margin: 0;
+    color: white;
+    line-height: 75px;
+    float: left;
+    line-height: 75px;
+}
+.menu{float: right;}
+.menu li{float: left;}
+.menu a{
+    line-height: 75px;
+    color: white;
+    padding: 0 15px;
+    display: block;
+}
+
+section{
+    color: white;
+    margin: 1000px 0 0 30px;
+    background-color: #052738;
+    border: solid 2px black;
+}
