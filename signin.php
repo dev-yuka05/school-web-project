@@ -9,12 +9,15 @@
 </head>
 <body>
     <form action="./index.php">
-        <input type="email" placeholder="Emaill">
-        <input type="password" placeholder="Password">
-        <input type="checkbox" value="agreement" name="agreement"> 동의
+        <input type="email" id="email" placeholder="Emaill">
+        <input type="password" id="password" placeholder="Password">
+        <input type="checkbox" value="check" name="agreement"> 동의
         <input type="submit" value="회원가입" class="btn-login">
         <a href="./login.php" class="btn-signin">로그인</a>
     </form>
+    <?php
+        
+    ?>
 </body>
 <script src="./script.js"></script> 
 </html>

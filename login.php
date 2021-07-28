@@ -9,11 +9,14 @@
 </head>
 <body>
     <form action="./index.php">
-        <input type="email" placeholder="Emaill">
-        <input type="password" placeholder="Password">
+        <input type="email" id="email" placeholder="Emaill">
+        <input type="password" id="password" placeholder="Password">
         <input type="submit" value="로그인" class="btn-login">
         <a href="./signin.php" class="btn-signin">회원가입</a>
     </form>
+    <?php
+
+    ?>
 </body>
 <script src="./script.js"></script> 
 </html>

@@ -53,6 +53,17 @@ font-size: 17px;
     }
 }
 
+.index-login-btn{
+    padding: 5px;
+    border:1px solid #1112ff;
+    color: #111;
+    text-decoration: none;
+}
+.index-login-btn:hover{
+    background-color:#1112ff;
+    color: rgb(255, 255, 255);
+}
+
 form{
     margin-top: 20%;
     margin-left: 35%;
@@ -126,3 +137,5 @@ form .btn-signin:hover{
     border-radius: 5px;
     border: 1px solid rgb(17, 0, 255);
 }
+
+img
