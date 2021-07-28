@@ -17,10 +17,12 @@ form input{
 }
 
 form input[type=email]{
+    width: 560px;
     display: block;
 }
 
 form input[type=password]{
+    width: 560px;
     display: block;
 }
 
@@ -41,6 +43,7 @@ form input:hover{
 }
 
 form .btn-login{
+    width: 577px;
     display: block;
     text-align: center;
     font-size: 20px;
@@ -49,17 +52,18 @@ form .btn-login{
     padding-top: 5px;
     padding-bottom: 5px;
     text-decoration: none;
-    background-color: rgb(0, 110, 255);
+    background-color: rgb(0, 81, 255);
 }
 
 form .btn-login:hover{
+    border-radius: 5px;
     background-color: rgb(0, 60, 255);
 }
 
 form .btn-signin{
+    text-align: center;
     display: block;
     font-size: 20px;
-    text-align: center;
     margin-top: 5px;
     padding: 5px;
     color: black;
@@ -68,5 +72,6 @@ form .btn-signin{
 }
 
 form .btn-signin:hover{
-    border: 1px solid rgb(0, 60, 255);
+    border-radius: 5px;
+    border: 1px solid rgb(17, 0, 255);
 }
